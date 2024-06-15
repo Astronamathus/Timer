@@ -74,12 +74,6 @@ class timer
                 }
             }
         }
-        for(int i = 0; i <= 10; i++)
-        {
-            System.out.println("Time's Up!");
-            for(double j = 0; j < 100000000; j++)
-            {}
-            System.out.print('\u000C');
-        }
+        System.out.println("Time's Up!");
     }
 }
